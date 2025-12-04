@@ -20,7 +20,12 @@ print("Profe no me repruebe D: ")
 print("Andele profe D: ")
 print("I win")
 
-
+f = [0,1]
+n = int(input("give me a number:"))
+for _ in range (n):
+    f.append(f[-1] + f[-2])
+for num in f[:n]:
+    print(num) 
 
 
 
